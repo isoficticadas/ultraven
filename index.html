@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ultraven</title>
+  <link rel="icon" href="img/acini.png" type="image/x-icon" /> 
+  <link href="/css/style.css" rel="stylesheet" />
+  <link href="/css/css2.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/ingredients.css">
+  <link rel="stylesheet" href="/css/resultados.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content content-width">
+      <img src="/img/LogoUV.png" alt="logo" class="header__logo" />
+      <h2 class="header__heading">
+        ¡APRESÚRESE! PARA EL DÍA DE HOY, POCA UNIDADES EN PROMOCIÓN
+      </h2>
+    </div>
+  </header>
+
+  <section class="cream">
+    <div class="cream__content content-width">
+      <h1 class="cream__heading">
+        <a href="#dataForm" class="order-link">Ultraven</a>: crema ultra-hidratante que combate várices y arañitas.
+      </h1>
+      <div class="cream__product product-bg-container">
+        <div class="product-bg"></div>
+        <img src="/img/ultraven.png" alt="LifeTone" class="cream__image" />
+      </div>
+      <form id="dataForm2" name="dataForm2" class="form cream__form" action="/submit" method="POST">
+        <img src="/img/discount.png" alt="discount" class="form__discount" />
+        <div class="form__header">
+          <p class="form__header-text">DESCUENTO DEL 50% EN SU PEDIDO</p>
+        </div>
+        <div class="form__content">
+          <div class="price">
+            <p class="price__old">
+              <span class="price__old--description">Precio original: </span>
+              <span class="price__old--value oldPriceAndLabelForLandingInfoApi">78 USD</span>
+            </p>
+            <p class="price__new">
+              <span class="price__new--description">Precio con descuento:
+              </span>
+              <span class="price__new--value priceAndLabelForLandingInfoApi">39 USD</span>
+            </p>
+          </div>
+          <label for="">POR EJEMPLO: MARÍA LOPEZ </label>
+          <input class="form__input" id="name2" name="name" required placeholder="Nombre" type="text" />
+          <label for="">POR EJEMPLO: +593 933 543 342 </label>
+          <input class="form__input" id="phone2" name="phone" placeholder="Número de teléfono" required type="tel" />
+          <button type="submit" class="form__btn btn">HACER UN PEDIDO</button>
+        </div>
+
+        <div class="form__footer">
+          <p class="days">dias restantes</p>
+          <div class="timer">
+            <div class="time-container">
+              <span class="hour">
+                <span class="num hour0">-</span>
+                <span class="num hour1">-</span>
+              </span>
+              <span class="time-text">horas</span>
+            </div>
+            :
+            <div class="time-container">
+              <span class="minute">
+                <span class="num min0">-</span>
+                <span class="num min1">-</span>
+              </span>
+              <span class="time-text">minutos</span>
+            </div>
+            :
+            <div class="time-container">
+              <span class="second">
+                <span class="num sec0">-</span>
+                <span class="num sec1">-</span>
+              </span>
+              <span class="time-text">segundos</span>
+            </div>
+          </div>
+        </div>
+
+
+      </form>
+      <div>
+        <img class="cream__decoration cream__decoration--1" src="/img/cream-bg-1.png" alt="water" />
+        <img class="cream__decoration cream__decoration--2" src="/img/cream-bg-2.png" alt="water" />
+      </div>
+    </div>
+  </section>
+  <!--Para Qué Sirve-->
+  <section class="action">
+    <div class="action__content content-width">
+      <h2 class="action__heading">
+        Beneficios y Para Qué Sirve <a href="#dataForm">Ultraven</a>
+      </h2>
+      <ul class="action__list">
+        <li class="action__item">
+          <p>Ultraven es una solución eficaz para el alivio del dolor y la pesadez en las piernas. Este gel ha sido especialmente diseñado para quienes sufren de várices y buscan un tratamiento confiable.</p>
+        </li>
+        <li class="action__item">
+          <p>Gracias a su fórmula avanzada, Ultraven actúa rápidamente para reducir el dolor y mejorar el bienestar general de las piernas, brindando un alivio notable desde las primeras aplicaciones.</p>
+        </li>
+        <li class="action__item">
+          <p>Entre sus principales componentes se encuentran el extracto de castaño de indias y el ginkgo biloba, que ayudan a mejorar la circulación venosa y fortalecer las paredes de los vasos sanguíneos.</p>
+        </li>
+        <li class="action__item">
+          <p>Ultraven no solo alivia los síntomas, sino que también previene complicaciones al mejorar el flujo sanguíneo, lo que contribuye a una mejor salud vascular y reduce el riesgo de coágulos sanguíneos.</p>
+        </li>
+        <li class="action__item">
+          <p>El gel contiene hamamelis y mentol, ingredientes clave que trabajan en conjunto para reducir la hinchazón y la inflamación, proporcionando un alivio rápido y duradero.</p>
+        </li>
+        <li class="action__item">
+          <p>Su fórmula natural lo hace seguro para el uso prolongado, asegurando resultados sin efectos secundarios adversos para quienes buscan una solución efectiva y confiable.</p>
+        </li>
+        <li class="action__item">
+          <p>Ultraven ha sido probado clínicamente y sus beneficios han sido validados por numerosos estudios, lo que garantiza su eficacia y seguridad para el cuidado de las piernas.</p>
+        </li>
+        <li class="action__item">
+          <p>Confía en Ultraven para mejorar la calidad de vida, restaurando la comodidad y la movilidad de tus piernas. Experimenta el alivio y bienestar que este gel puede ofrecer.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <!--Formula o ingredientes-->
+  <section class="sections">
+    <h2>¿POR QUÉ LA FÓRMULA DE ULTRAVEN ES TAN EFECTIVA?</h2>
+    <p>Estos son los poderosos ingredientes naturales que ayudan a mejorar la salud cardiovascular:</p>
+
+    <div class="grid">
+      <div class="ingredient">
+        <img src="/img/ultraven-manteca.jpg" alt="MANTECA DE KARITÉ">
+        <h3>MANTECA DE KARITÉ</h3>
+        <p>Mágico ingrediente que hidrata, suaviza y protege la piel de pies y piernas.</p>
+      </div>
+
+      <div class="ingredient">
+        <img src="/img/ultraven-centella.jpg" alt="CENTELLA ASIÁTICA">
+        <h3>CENTELLA ASIÁTICA</h3>
+        <p>Ayuda a mejorar la circulación y elasticidad aliviando molestias e hinchazón.</p>
+      </div>
+
+      <div class="ingredient">
+        <img src="/img/ultraven-castaño.jpg" alt="CASTAÑO DE INDIAS">
+        <h3>CASTAÑO DE INDIAS</h3>
+        <p>Poderoso anti-inflamatorio natural que ayuda a aliviar y mejorar várices y la circulación sanguínea.</p>
+      </div>
+
+      <div class="ingredient">
+        <img src="/img/ultraven-ginkgo.jpg" alt="GINKGO BILOBA, ÁRNICA Y MENTA">
+        <h3>GINKGO BILOBA, ÁRNICA Y MENTA</h3>
+        <p>Re-energizan y refrescan la piel de las piernas y fortalecen las paredes venosas.</p>
+      </div>
+    </div>
+
+    <a href="#dataForm" class="button" onclick="scrollToOrder()">¡Hacer un pedido!</a>
+  </section>
+
+  <!--Uso de la crema-->
+  <section class="sections uso">
+      <h2 class="h2-uso">¿CÓMO APLICAR LA CREMA ULTRAVEN PARA MEJORES BENEFICIOS?</h2>
+      <p class="p-uso">Para disfrutar de todas sus propiedades terapéuticas, solo tienes que seguir estos tres pasos:</p>
+  
+      <div class="grid-uso">
+        <div class="step-uso">
+          <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=400&h=400"
+            alt="Paso 1">
+          <h3 class="h3-uso">APLICA LA CREMA EN EL ÁREA AFECTADA</h3>
+          <p class="p-uso">Aplica una porción generosa de <strong>Ultraven</strong> sobre la piel limpia de las piernas.
+            Es ideal hacerlo luego de ducharnos.</p>
+        </div>
+  
+        <div class="step-uso">
+          <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=400&h=400"
+            alt="Paso 2">
+          <h3 class="h3-uso">MASAJEA SUAVEMENTE DE FORMA ASCENDENTE</h3>
+          <p class="p-uso">Desparrama la crema delicadamente y masajéala suavemente para que pueda penetrar la piel
+            profundamente.</p>
+        </div>
+  
+        <div class="step-uso">
+          <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=400&h=400"
+            alt="Paso 3">
+          <h3 class="h3-uso">¡DISFRUTA SUS BENEFICIOS!</h3>
+          <p class="p-uso">Esta poderosa fórmula hidrata, protege y ayuda a reparar la piel de las piernas mientras alivia
+            y calma hinchazón, cansancio y molestias.</p>
+        </div>
+      </div>
+  </section>
+
+  <!--Resultado y Beneficios-->
+  <section class="sections">
+      <h2>RESULTADOS Y BENEFICIOS</h2>
+      <p>Conoce cómo y por qué <strong>Ultraven</strong> ayuda a combatir várices e hinchazón:</p>
+  
+      <div class="grid-resultado">
+        <div class="image-container-resultado">
+          <img src="/img/ultraven-results.jpg" alt="Beneficios de Ultraven">
+        </div>
+  
+        <div class="text-section-resultado">
+          <p class="p-resultado"><strong>Ultraven</strong> es una crema anti-várices con propiedades anti-inflamatorias
+            y terapéuticas naturales. Posee una combinación muy poderosa de ingredientes
+            naturales que están cuidadosamente balanceados para proveernos de los mejores
+            resultados posibles.
+          </p>
+  
+          <p class="p-resultado">Su textura cremosa super-hidrata las piernas, protegiéndolas y proveyéndolas
+            de todos los nutrientes necesarios para lucir espléndidas.
+          </p>
+  
+          <p class="p-resultado">Posee una serie de potentes anti-inflamatorios naturales que ayudan a calmar
+            y aliviar las molestias causadas por las várices, ayudando también a mejorar
+            la circulación y prevenir la formación de nuevas.
+          </p>
+  
+          <div class="button-container-resultado">
+            <a href="#dataForm" class="button" onclick="scrollToOrder()">¡Hacer un pedido!</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="footer__content content-width">
+      <form id="dataForm" name="dataForm" class="form cream__form" action="/submit" method="POST">
+        <img src="/img/discount.png" alt="discount" class="form__discount" />
+        <div class="form__header">
+          <p class="form__header-text">DESCUENTO DEL 50% EN SU PEDIDO</p>
+        </div>
+        <div class="form__content">
+          <div class="price">
+            <p class="price__old">
+              <span class="price__old--description">Precio original: </span>
+              <span class="price__old--value oldPriceAndLabelForLandingInfoApi">78 USD</span>
+            </p>
+            <p class="price__new">
+              <span class="price__new--description">Precio con descuento:
+              </span>
+              <span class="price__new--value priceAndLabelForLandingInfoApi">39 USD</span>
+            </p>
+          </div>
+          <label for="">POR EJEMPLO: MARÍA LOPEZ</label>
+          <input class="form__input" id="name" name="name" required placeholder="Nombre" type="text" />
+
+          <label for="">POR EJEMPLO: +593 933 543 342 </label>
+          <input class="form__input" id="phone" name="phone" placeholder="Número de teléfono" required type="tel" />
+
+          <button type="submit" class="form__btn btn">HACER UN PEDIDO</button>
+        </div>
+      </form>
+      <center>
+        <div class="footer__links">
+          <div>
+            QUITO-ECUADOR, Distribuidor único para Ecuador(C)(P) <br />
+            <a href="policy.html" class="policy" target="_blank" rel="noopener noreferrer">Politica de privacidad</a>
+          </div>
+        </div>
+      </center>
+    </div>
+  </footer>
+
+  <style>
+    html,
+    body {
+      scroll-behavior: smooth !important;
+    }
+  </style>
+  <style>
+    .feedback {
+      width: 75px;
+      height: 70px;
+      position: fixed;
+      right: -15px;
+      top: 15%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #1A81A0;
+      border-top-left-radius: 35px;
+      border-bottom-left-radius: 35px;
+      cursor: pointer;
+      z-index: 1000;
+      box-shadow: -2px 3px 11px rgb(0 0 0 / 30%);
+      transition: all 0.5s;
+    }
+
+    .feedback:hover {
+      right: 0;
+    }
+
+    .feedback img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .popup-window {
+      font-family: sans-serif;
+      font-family: inherit;
+      display: none;
+      width: 300px;
+      position: fixed;
+      right: 0;
+      top: 15%;
+      padding: 35px 10px;
+      background: #fff;
+      border-radius: 5px 0 0 5px;
+      z-index: 2000;
+      box-shadow: -2px 3px 11px rgb(0 0 0 / 17%);
+    }
+
+    .popup-window form {
+      width: 100%;
+      min-height: auto;
+      padding: 0;
+      background: inherit;
+      box-shadow: none;
+      height: auto;
+    }
+
+    .popup-window label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #333;
+      text-transform: uppercase;
+    }
+
+    .popup-window input {
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: none;
+      font-family: inherit;
+      font-size: 16px;
+      margin-bottom: 15px;
+      border: 1px solid #333;
+    }
+
+    .popup-window input::placeholder {
+      font-size: 16px;
+    }
+
+    .popup-window button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background: #1A81A0;
+      color: #ffffff;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: 15px;
+      border-radius: 20px;
+    }
+
+    .close-popup {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      width: 27px;
+      height: 27px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+
+    .close-popup:before {
+      content: "";
+      background: #333;
+      width: 20px;
+      height: 1px;
+      position: absolute;
+      top: 13px;
+      left: 4px;
+      transform: rotate(-45deg);
+    }
+
+    .close-popup:after {
+      content: "";
+      background: #333;
+      width: 20px;
+      height: 1px;
+      position: absolute;
+      top: 13px;
+      left: 4px;
+      transform: rotate(45deg);
+    }
+
+    @media screen and (max-width: 576px) {
+      .feedback {
+        top: 35%;
+      }
+
+      .popup-window {
+        top: 35%;
+      }
+    }
+
+    .responsive-image__content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .responsive-image__img {
+      width: 100%;
+      height: auto;
+    }
+
+    .responsive-image-2__content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+    }
+
+    .responsive-image-2__img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  <div class="feedback">
+    <img src="img/form-ico.png" alt="" />
+  </div>
+  <div class="popup-window" style="display: none">
+    <div class="close-popup"></div>
+    <form id="dataForm3" name="dataForm3" class="form cream__form" action="/submit" method="POST">
+      <label for="name2">POR EJEMPLO: MARÍA LOPEZ</label>
+      <input id="name3" type="text" name="name" placeholder="Alejandro Rodriguez" required />
+      <label for="phone2">POR EJEMPLO: +593 933 543 342</label>
+      <input id="phone3" type="tel" name="phone" placeholder="Ingrese su teléfono" required />
+      <button type="submit">DEJAR UNA SOLICITUD</button>
+    </form>
+  </div>
+  <script>
+    $(document).ready(function () {
+      $(".feedback").click(function () {
+        $(".popup-window").show();
+      });
+      $(".close-popup").click(function () {
+        $(".popup-window").hide();
+      });
+
+      function handleFormSubmit(formId, nameInputId, phoneInputId) {
+        $(formId).submit(function (event) {
+          event.preventDefault();
+          const name = $(nameInputId).val().trim();
+          const phone = $(phoneInputId).val().trim();
+          const namePattern = /^[A-Za-z\s]+$/;
+          const phonePattern = /^\+593\d{9}$/;
+
+          if (!name || !namePattern.test(name)) {
+            alert(
+              "Por favor, ingrese un nombre válido. Solo se permiten letras y espacios."
+            );
+            $(nameInputId).focus();
+            return false;
+          }
+
+          if (!phonePattern.test(phone)) {
+            alert(
+              "Por favor, ingrese un número de teléfono válido. Ejemplo: +593933543342"
+            );
+            $(phoneInputId).focus();
+            return false;
+          }
+
+          $.ajax({
+            url: "/submit",
+            method: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({ name, phone }),
+            success: function (response) {
+              alert(
+                "Sus datos fueron enviados y un agente se comunicará con usted dentro de 1 a 5 minutos."
+              );
+              $(formId)[0].reset(); // Limpiar el formulario
+              $(".popup-window").hide();
+            },
+            error: function (xhr, status, error) {
+              alert(
+                "Error al enviar los datos. Por favor, inténtelo de nuevo."
+              );
+            },
+          });
+        });
+      }
+      // Manejar el envío de los formularios
+      handleFormSubmit("#dataForm", "#name", "#phone");
+      handleFormSubmit("#dataForm2", "#name2", "#phone2");
+      handleFormSubmit("#dataForm3", "#name3", "#phone3");
+    });
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      function validateForm(form) {
+        const name = form.querySelector('input[name="name"]');
+        const phone = form.querySelector('input[name="phone"]');
+        const namePattern = /^[A-Za-z\s]+$/;
+        const phonePattern = /^\+593\d{9}$/;
+
+        if (!name.value.trim() || !namePattern.test(name.value.trim())) {
+          alert(
+            "Por favor, ingrese un nombre válido. Solo se permiten letras y espacios."
+          );
+          name.focus();
+          return false;
+        }
+
+        if (!phonePattern.test(phone.value.trim())) {
+          alert(
+            "Por favor, ingrese un número de teléfono válido. Ejemplo: +593933543342"
+          );
+          phone.focus();
+          return false;
+        }
+
+        return true;
+      }
+
+      const form1 = document.getElementById("dataForm");
+      const form2 = document.getElementById("dataForm2");
+
+      form1.addEventListener("submit", function (event) {
+        if (!validateForm(form1)) {
+          event.preventDefault();
+        }
+      });
+
+      form2.addEventListener("submit", function (event) {
+        if (!validateForm(form2)) {
+          event.preventDefault();
+        }
+      });
+    });
+  </script>
+
+  <!--contador-->
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Dec 31, 2024 23:59:59").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes, and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Format hours, minutes, and seconds for double digits
+      var hoursTens = Math.floor(hours / 10);
+      var hoursOnes = hours % 10;
+      var minutesTens = Math.floor(minutes / 10);
+      var minutesOnes = minutes % 10;
+      var secondsTens = Math.floor(seconds / 10);
+      var secondsOnes = seconds % 10;
+
+      // Update days
+      document.querySelector(".days").textContent = days + " días restantes";
+
+      // Update hours
+      document.querySelector(".hour0").textContent = hoursTens;
+      document.querySelector(".hour1").textContent = hoursOnes;
+
+      // Update minutes
+      document.querySelector(".min0").textContent = minutesTens;
+      document.querySelector(".min1").textContent = minutesOnes;
+
+      // Update seconds
+      document.querySelector(".sec0").textContent = secondsTens;
+      document.querySelector(".sec1").textContent = secondsOnes;
+
+      // If the countdown is over, show "EXPIRED"
+      if (distance < 0) {
+        clearInterval(x);
+        document.querySelector(".days").textContent = "PROMOCIÓN FINALIZADA";
+        document.querySelectorAll(".num").forEach((el) => (el.textContent = "-"));
+      }
+    }, 1000);
+
+
+  </script>
+</body>
+
+</html>

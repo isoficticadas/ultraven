@@ -1,0 +1,71 @@
+/* Cargar fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600&display=swap');
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/cormorantsc/v8/WQiaJWXfCGSh3gLDoQFbsj-sDhj-rntADQ.woff2') format('woff2');
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/cormorantsc/v8/WQiaJWXfCGSh3gLDoQFbsj-sDhj-rntADQ.woff2') format('woff2');
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/cormorantsc/v8/WQiaJWXfCGSh3gLDoQFbsj-sDhj-rntADQ.woff2') format('woff2');
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/cormorantsc/v8/WQiaJWXfCGSh3gLDoQFbsj-sDhj-rntADQ.woff2') format('woff2');
+}
+
+/* latin */
+@font-face {
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/cormorantsc/v8/WQiaJWXfCGSh3gLDoQFbsj-sDhj-rntADQ.woff2') format('woff2');
+}
+
+/* Define other font weights as needed */
+@font-face {
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/cormorantsc/v8/WQiaJWXfCGSh3gLDoQFbsj-sDhj-rntADQ.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/cormorantsc/v8/WQiaJWXfCGSh3gLDoQFbsj-sDhj-rntADQ.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/cormorantsc/v8/WQiaJWXfCGSh3gLDoQFbsj-sDhj-rntADQ.woff2') format('woff2');
+}
