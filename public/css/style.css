@@ -220,8 +220,8 @@ h3 {
 }
 .cream__image {
   position: absolute;
-  top: -3%;
-  width: 68%;
+  top: 0%;
+  width: 65%;
   left: 49%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -1584,7 +1584,7 @@ h3 {
   font-family: sans-serif;
   font-family: inherit;
   display: none;
-  width: 300px;
+  max-width: 300px;
   position: fixed;
   right: 0;
   top: 15%;
@@ -1678,15 +1678,6 @@ h3 {
 }
 
 @media screen and (max-width: 576px) {
-  .feedback {
-    top: 35%;
-  }
-
-  .popup-window {
-    top: 35%;
-  }
-}
-
 .responsive-image__content {
   display: flex;
   justify-content: center;
@@ -1709,4 +1700,32 @@ h3 {
 .responsive-image-2__img {
   width: 100%;
   height: auto;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .feedback {
+    /* Si quieres que el botón sea más pequeño en móvil: */
+    width: 70px;
+    height: 70px;
+    top: 35%; /* O ajusta a tu gusto */
+  }
+
+  .popup-window {
+    width: 100%;
+    right: 0%;
+    top: 50%;
+    padding: 40px 15px;
+  }
+
+  .close-popup {
+    right: 10px;
+    top: -17rem;
+    z-index: 1000;
+  }
+
+  .popup-window form {
+    padding: 25px;
+  }
+
 }
